@@ -1,0 +1,41 @@
+header {
+    height: 100vh;
+    color: white;
+
+    .header-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-height: 100vh;
+
+    }
+    nav {
+        display: grid;
+        grid-template-columns: 15% 70% 15%;
+        width: 80%;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+
+        .title-nav {
+            display: flex;
+            justify-content: center;
+        }
+
+        ul {
+            display: flex;
+            justify-content: center;
+
+            li {
+                margin: 20px 40px;
+            }
+
+        }
+        .social-right {
+            li {
+                margin: 20px 10px;
+            }
+        }
+    }
+}
