@@ -4,5 +4,7 @@
     list-style: none;
 }
 body {
-    background: url(../img/bg-slider-06.jpg) center/cover;
+    background: url(../img/bg-slider-06.jpg) center/cover no-repeat;
+    min-height: 100vh;
+    height: 100vh;
 }
