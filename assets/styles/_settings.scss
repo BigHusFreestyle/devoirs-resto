@@ -1,10 +1,26 @@
+@font-face {
+    font-family: "Allura" ;
+    src: url(../fonts/Allura/Allura-Regular.ttf);
+}
+@font-face {
+    font-family:"Poppins" ;
+    src: url(../fonts/Poppins/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family:"Roboto" ;
+    src: url(../fonts/Roboto/Roboto-Light.ttf);
+}
+$color1: rgb(166, 114, 69);
+
 * {
     padding: 0;
     margin: 0;
     list-style: none;
+    font-family: "Roboto";
 }
 body {
     background: url(../img/bg-slider-06.jpg) center/cover no-repeat;
     min-height: 100vh;
     height: 100vh;
+    
 }
