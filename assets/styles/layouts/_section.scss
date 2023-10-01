@@ -59,4 +59,17 @@ section {
 
         }
     }
+    .section2 {
+
+        .menu-discover {
+            height: 50vh;
+            background: rgb(33, 32, 30);
+            display: flex;
+
+        }
+        .background-bottom {
+        background: url(/assets/img/bg-menu-01.jpg) center/cover;
+        height: 80vh;
+    }
+    }
 }

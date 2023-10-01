@@ -152,4 +152,15 @@ section .section1 .left-grid .left-grid-content .left-grid-discover .roles {
 }
 section .section1 .right-grid {
   background: url(/assets/img/store-01.jpg) center/cover;
+}
+section .section2 .menu-discover {
+  height: 50vh;
+  background: rgb(33, 32, 30);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+section .section2 .background-bottom {
+  background: url(/assets/img/bg-menu-01.jpg) center/cover;
+  height: 80vh;
 }/*# sourceMappingURL=style.css.map */
